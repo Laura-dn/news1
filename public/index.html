@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="https://ru.seaicons.com/wp-content/uploads/2015/11/Apps-File-News-icon.png" type="image/png">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Avrakhova Laura">
+        <meta name="description" content="ITstep Dnipro, gr. web91, dz-News">
+        <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <title>News</title>
+    </head>
+    <body>
+        <div id="root"></div>
+
+        <script>
+            window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
+            window.myWidgetParam.push({id: 22,cityid: '709930',appid: '9cb5593fe18d6f86cd53499d8ab67412',units: 'metric',containerid: 'openweathermap-widget-22',  });
+            (function() {
+                var script = document.createElement('script');
+                script.async = true;
+                script.charset = "utf-8";
+                script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(script, s);
+            })();
+        </script>
+    </body>
+</html>
